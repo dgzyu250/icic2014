@@ -1,0 +1,219 @@
+body {
+    font-family: 'Microsoft YaHei', Arial;
+    background-image: url(index_files/5arashasghari-grow.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.head {
+    border: 1px solid #eee;
+    width: 800px;
+    height: 145px;
+    margin: 50px auto 0px auto;
+    box-shadow: 1px 1px 5px #000;
+    border-radius:10px 10px 0px 0px;
+}
+
+    .head img {
+        border-radius:10px 10px 0px 0px;
+        width: 800px;
+    }
+
+.page {
+    border-radius:0px 0px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    width: 800px;
+    margin: 0px auto 50px auto; /*页面整体居中，注意必须先指定宽度*/
+    box-shadow: 1px 1px 8px #000;
+    overflow-y: auto; overflow-x: hidden;  /*防止因左边栏浮动而撑破整体框架*/
+}
+
+
+/*左边栏*/
+.list_left {
+    float: left;
+    width: 200px; height: 1200px;
+    background-color: #aae3ff;
+    margin: 0px auto;
+    border-bottom-left-radius:10px;
+	
+}
+
+.nav {
+    font-size:1em;
+    width: 200px;
+    padding-left: 0px; /*去除ul的自动缩进*/
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.nav_button {
+    border-radius: 6px;
+    line-height: 30px; /*保持导航文字居中*/
+    background-image: url(index_files/1.png); background-size: cover;
+    height: 30px;
+    width: 180px;
+    margin: 10px auto;
+    /*box-shadow: 1px 1px 3px 2px white;*/
+    transition: background 1.5s, width 0.5s;
+    -webkit-transition: background 1.5s, width 0.5s;
+    -moz-transition: background 1.5s, width 0.5s;
+    -o-transition: background 1.5s, width 0.5s;
+}
+
+    .nav_button a {
+        font-size: 1em;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding-left: 10px;
+    }
+
+    .nav_button:hover {
+        background-image: url(index_files/2.png); background-size: cover;
+        transition: background 0.15s, width 0.15s;
+        -webkit-transition: background 0.15s, width 0.15s;
+        -moz-transition: background 0.15s, width 0.15s;
+        -o-transition: background 0.15s, width 0.15s;
+        width: 190px;
+    }
+
+.list_left_logo {
+    transition: border 0.5s;
+    -webkit-transition: border 0.5s;
+        -moz-transition: border 0.5s;
+        -o-transition: border 0.5s;
+    width: 150px;
+    margin: auto auto;
+    padding: 3px;
+}
+
+.list_left_logo img {
+    border: 0px;
+}
+
+    .list_left_logo:hover {
+        transition: border 0.5s;
+        -webkit-transition: border 0.5s;
+        -moz-transition: border 0.5s;
+        -o-transition: border 0.5s;
+        border: 5px solid #1c68ab;
+        border-radius: 5px;
+    }
+
+.counter {
+    background-color: #1c68ab;
+    width: 180px;
+    height: 20px;
+    margin: 10px auto; /*计数器装饰条居中*/
+    text-align: center; /*计数器居中*/
+}
+
+
+/*正文*/
+.content {
+    font-family: 'Times New Roman';
+    margin-left: 200px;
+    width: 600px;
+}
+
+
+.text_nav { /*正文最顶部导航，居右*/
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.content h2 {
+    font-size: 1em;
+    color: #1c68ab;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.article h1 {
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+.article h2 {
+    color: #000;
+    font-size:1em;
+}
+
+.article p {
+    text-indent: 2em;
+    text-align: justify;
+    margin: 0px 20px;
+}
+    /*正文部分超链接样式*/
+    .article a:link {
+        text-decoration: none;
+        color: #1174db;
+    }
+
+    .article a:visited {
+        text-decoration: none;
+        color: #1174db;
+    }
+
+    .article a:hover {
+        text-decoration: none;
+        background-color: #ffecab;
+    }
+
+
+.decoration_bar {
+    margin-top: 0px;
+    margin-bottom: 200px;
+    width: 580px;
+    margin: auto auto;
+    background-color: #1c68ab;
+}
+
+
+/*非通用盒子样式*/
+.image_js {
+    width: 580px;
+    margin-left: 20px;
+}
+
+.charm h2 {
+    width: 560px;
+    margin: 60px auto 0px auto;
+    text-align: center;
+    background-color: #1c68ab;
+    color: #fff;
+}
+
+
+table {
+    margin:auto auto;
+	border-collapse:collapse;
+    border: 1px solid #000;
+    text-align: center; vertical-align: central;
+    width:450px; height: 90px;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;  
+}
+
+table.important_dates {
+	margin:auto auto;
+}
+
+table.important_dates td {   
+    color:#06C;
+}
+
+
+

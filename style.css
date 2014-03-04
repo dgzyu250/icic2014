@@ -1,0 +1,93 @@
+body{
+	font-family:'Microsoft YaHei',Arial;
+	background-image: url(index_files/5arashasghari-grow.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.head{
+	border: 1px solid #eee;
+	width: 800px;
+	height:145px;
+	border-radius: 10px 10px 0px 0px;
+	margin: 50px auto 0px auto;
+}
+.head img{
+	border-radius:10px 10px 0px 0px;
+	width:800px;
+}
+
+.page {
+	border-radius:0px 0px 10px 10px;
+	background-color: #fff;
+	border:1px solid #eee;
+	width: 800px;
+	margin: 0px auto 50px auto;
+	box-shadow:1px 1px 8px #000;
+	overflow: auto; overflow: hidden;
+}
+
+/*左边栏*/
+.list_left{
+	float: left;
+	width: 200px;height: 1200px;
+	background-color: #eee;
+	margin: 0px auto;
+	border-bottom-right-radius: 10px;
+}
+.nav{
+	font-size: 18px;
+	width: 200px;
+	padding-left: 0px;/*去除ul的自动缩进*/
+	list-style-type: none;
+}
+
+.nav_button{
+	border-radius:6px;
+	line-height: 30px;
+	background-image: url(index_files/1.png);
+	background-size: contain;
+	height:30px;
+	width: 180px;
+	margin: 10px auto;
+}
+
+.nav_button a{
+	font-size: 1em;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding-left: 10px;
+}
+
+/*导航悬停特效全部在这*/
+.nav_button:hover {
+	background-image: url(index_files/2.png);
+	background-size: cover;
+	transition:background 0.15s,width 0.15s;
+	-webkit-transition:background 0.15s;width: 0.15s;
+	-moz-transition:background 0,15s; width: 0.15s;
+	-o-transition:background 0.15s;width: 0.15s;
+	width: 190px;
+}
+左边栏学校logo
+.list_left_logo {
+    transition: border 3.0s;
+    -webkit-transition: border 3.0s;
+    -moz-transition: border 3.0s;
+    -o-transition: border 3.0s;
+    width: 150px;
+    margin: auto auto;
+    padding: 3px;
+    border: 5px solid #aae3ff;      此边框背景与list_left颜色相同，做占位用，防止悬停出现的边框造成排版混乱
+    border-radius: 5px;
+    border:0px;
+}
+
+text_nav { 
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.pp {
+	float:left;
+};
